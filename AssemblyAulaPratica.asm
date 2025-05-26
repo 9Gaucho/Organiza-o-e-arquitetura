@@ -1,5 +1,5 @@
-############# EXERCÍCIO 1 #############
-------------------------------------------------
+;############# EXERCÍCIO 1 #############
+;------------------------------------------------
 section .data
     msg db 'Quantidade de numeros pares: ', 0
     msg_len equ $ - msg
@@ -99,8 +99,8 @@ loop_end:
     mov rax, 60
     xor rdi, rdi
     syscall
-------------------------------------------------
-############# EXERCÍCIO 2 #############
+;------------------------------------------------
+;############# EXERCÍCIO 2 #############
 
 section .data
     msg db 'Quantidade de numeros impares: ', 0
@@ -156,8 +156,8 @@ loop_end:
     mov rax, 60
     xor rdi, rdi
     syscall
-------------------------------------------------
-############# EXERCÍCIO 3 #############
+;------------------------------------------------
+;############# EXERCÍCIO 3 #############
 
 section .data
     msg db 'Numeros pares encontrados: ', 10, 0
@@ -220,8 +220,8 @@ loop_end:
     mov rax, 60
     xor rdi, rdi
     syscall
-------------------------------------------------
-############# EXERCÍCIO 4 #############
+;------------------------------------------------
+;############# EXERCÍCIO 4 #############
 
 section .data
     msg_p db 'Pares: ', 0
@@ -299,8 +299,8 @@ loop_end:
     mov rax, 60
     xor rdi, rdi
     syscall
-------------------------------------------------
-############# EXERCÍCIO 5 #############
+;------------------------------------------------
+;############# EXERCÍCIO 5 #############
 
 
 section .data
@@ -379,7 +379,4 @@ loop_end:
     mov rax, 60
     xor rdi, rdi
     syscall
-------------------------------------
- OBS: Junto ao diretório Organização e arquitetura, possui um arquivo com cada um deles individualmente
-
-
+;------------------------------------
